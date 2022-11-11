@@ -27,26 +27,27 @@ div {
   width: 100%;
   background-color: #ffcccc;
   clear: both;
-  position: relative;
+  position: inherit;
   text-align: start;
+  float:initial;
 }
 
 .left {
-  height: 1000px;
+  height: 100%;
   width: 10%;
   background-color: #e0eeee;
   float: left;
-  position: inherit;
- 
+ position:initial;
+ display: block;
 }
 
 
 .content {
-  display: inline-block;
-  margin: 16px;
- 
+  
+ display: flexbox;
   align-items: center;
   width: 100%;
+  
   
 }
 

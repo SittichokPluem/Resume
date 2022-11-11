@@ -1,20 +1,16 @@
 
   <div id="header" > <h1 id="title">Resume</h1></div>
-  <mat-sidenav-container class="left" >
+  <div class="left"  fxFlexAlign.sm="start" >
 <div fxLayout="column" > 
-  <button mat-button routerLink="interests-component" routerLinkActive="active" ariaCurrentWhenActive="page">Interests</button>
-  <button mat-button routerLink="skills-component" routerLinkActive="active" ariaCurrentWhenActive="page">Skills</button>
-  <button mat-button routerLink="education-component" routerLinkActive="active" ariaCurrentWhenActive="page">Education</button>
-  <button mat-button routerLink="contact-component" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</button>
+  <button  mat-button routerLink="interests-component" routerLinkActive="active" ariaCurrentWhenActive="page">Interests</button>
+          <button mat-button routerLink="skills-component" routerLinkActive="active" ariaCurrentWhenActive="page">Skills</button>
+          <button mat-button routerLink="education-component" routerLinkActive="active" ariaCurrentWhenActive="page">Education</button>
+          <button mat-button routerLink="contact-component" routerLinkActive="active" ariaCurrentWhenActive="page">Contact</button>
   
   </div>
 
-  </mat-sidenav-container>
+</div>
     
-    <mat-sidenav-container>
-        <mat-sidenav>
-        </mat-sidenav>
-        <mat-sidenav-content>
         
           <div fxLayoutGap.sm="row" >
             
@@ -29,9 +25,9 @@
                 <hr>
                 <br> 
           <router-outlet></router-outlet>
-             
+         
                </div>   </div>   </div> 
-
+              
 
 
               
@@ -40,9 +36,7 @@
 
 
 
-        </mat-sidenav-content>
-    </mat-sidenav-container>
-    <div id="footer">
+    <div id="footer" >
       <h2 id="name">Sittichok Phothongkam</h2></div> 
    
 
