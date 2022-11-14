@@ -13,6 +13,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 
+import { FooterComponent } from './footer/footer.component';
+
 
 
 
@@ -21,6 +23,8 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     EducationComponent,
     ContactComponent,
+
+    FooterComponent,
     
   ],
   imports: [
