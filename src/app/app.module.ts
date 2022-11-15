@@ -14,6 +14,7 @@ import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 
 import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
 
 
 
@@ -25,6 +26,7 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
 
     FooterComponent,
+     HeaderComponent,
     
   ],
   imports: [
