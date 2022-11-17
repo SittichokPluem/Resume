@@ -5,13 +5,14 @@ import { EducationComponent } from './education/education.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { InterestsComponent } from './interests/interests.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 import { SkillsComponent } from './skills/skills.component';
 
 const routes: Routes = [
 
 
   {path:'footer-component',component:FooterComponent},
-  
+  {path:'sidenav-component',component:SidenavComponent},
     {path:'interests-component',component:InterestsComponent},
     {path:'skills-component',component:SkillsComponent},
     {path:'education-component',component:EducationComponent},

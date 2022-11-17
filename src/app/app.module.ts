@@ -15,6 +15,7 @@ import { ContactComponent } from './contact/contact.component';
 
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 
 
@@ -27,6 +28,7 @@ import { HeaderComponent } from './header/header.component';
 
     FooterComponent,
      HeaderComponent,
+     SidenavComponent,
     
   ],
   imports: [
