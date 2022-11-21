@@ -10,7 +10,10 @@
    
   }
 
-
+  .vl {
+    border-left: 1px solid black;
+    height: 500px;
+  }
 img{
     height: auto;
     display: block;
@@ -25,4 +28,10 @@ img{
     font-size: 20px;
      border-bottom: 1px solid white;
      color: white;
+  }
+  .text{
+    color: white;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 16px;
   }

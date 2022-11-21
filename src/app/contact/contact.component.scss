@@ -1,23 +1,29 @@
 
 * {
-    width: 80%;
-    margin: auto;
-    
-  }
+  width: 80%;
+  margin: auto;
   
-  
-  .head { 
-    font-size: 20px;
-    text-align: center;
-  }
-  
+}
+.vl {
+  border-left: 1px solid black;
+  height: 500px;
+}
 
 .content {
+  display: inline-block;
+  margin-top: 10px;
+ 
+  align-items: center;
+  width: 100%;
   
-  display: flexbox;
-   align-items: center;
-   width: 100%;
-   margin-left: 10%;
-   
-   
- }
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head { 
+  font-size: 20px;
+  text-align: center;
+}

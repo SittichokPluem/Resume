@@ -17,7 +17,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 
-
+import {MatIconModule} from '@angular/material/icon'
 
 
 @NgModule({
@@ -40,7 +40,8 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     MatSidenavModule,
     MatButtonModule,
     MatDividerModule,
-    FlexLayoutModule 
+    FlexLayoutModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
