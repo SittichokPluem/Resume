@@ -28,10 +28,17 @@ img{
     font-size: 20px;
      border-bottom: 1px solid white;
      color: white;
+     
   }
   .text{
     color: white;
     margin-left: 10px;
     text-align: center;
     font-size: 16px;
+  }
+
+  @media (orientation: portrait) {
+    body {
+      flex-direction: column;
+    }
   }
