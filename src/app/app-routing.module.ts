@@ -13,10 +13,10 @@ const routes: Routes = [
 
   {path:'footer-component',component:FooterComponent},
   {path:'sidenav-component',component:SidenavComponent},
-    {path:'interests-component',component:InterestsComponent},
-    {path:'skills-component',component:SkillsComponent},
-    {path:'education-component',component:EducationComponent},
-    {path:'contact-component',component:ContactComponent},
+    {path:'interests',component:InterestsComponent},
+    {path:'skills',component:SkillsComponent},
+    {path:'education',component:EducationComponent},
+    {path:'contact',component:ContactComponent},
    
    
   {path:'header-component',component:HeaderComponent}
