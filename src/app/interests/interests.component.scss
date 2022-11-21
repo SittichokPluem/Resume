@@ -1,18 +1,18 @@
 
 * {
     width: 80%;
-    margin: auto;
+  
     
   }
   .vl {
     border-left: 1px solid black;
-    height: 500px;
+    height: 100%;
   }
   
   .content {
-    display: inline-block;
+    display:flexbox;
     margin-top: 10px;
-   
+   margin: auto;
     align-items: center;
     width: 100%;
     
