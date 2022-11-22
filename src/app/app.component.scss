@@ -34,7 +34,7 @@ li {
 
 }
 
-#name {
+.name {
   font-family: Sacramento;
   float: right;
   margin-top: 10px;
@@ -52,4 +52,17 @@ a {
   font-size: 44px;
   text-align: start;
   color: wheat;
+}
+
+
+@media (orientation: portrait) {
+  
+    .head { 
+      font-size: 32px;
+      text-align: center;
+    
+    }
+
+   
+  
 }
