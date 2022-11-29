@@ -14,6 +14,6 @@ export class AppComponent {
   title = 'resume';
  
  
-} export class SidenavAutosizeExample {
+} export class Sidenav {
   showFiller = false;
 }

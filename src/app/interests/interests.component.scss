@@ -1,13 +1,6 @@
 
-* {
-    width: 80%;
+
   
-    
-  }
-  .vl {
-    border-left: 1px solid black;
-    height: 100%;
-  }
   
   .content {
     display:flexbox;
@@ -15,6 +8,7 @@
    margin: auto;
     align-items: center;
     width: 100%;
+    
     
   }
   
@@ -27,3 +21,20 @@
     font-size: 20px;
     text-align: center;
   }
+
+@media (orientation: portrait) {
+  
+    .content {
+
+      display: block;
+       align-items: center;
+       width: 100%;
+       height: 100%;
+       margin-left: 5%;
+       
+       
+     }
+    
+ 
+
+}
