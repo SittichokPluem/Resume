@@ -6,7 +6,9 @@
     float: left;
    position:fixed;
    display: inline-block;
-
+   overflow-x: hidden; 
+   overflow-x: auto; 
+   text-align:justify; 
    
   }
 
@@ -53,4 +55,6 @@ img{
       
      
     }
+    
   }
+ 
