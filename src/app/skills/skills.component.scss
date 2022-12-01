@@ -6,15 +6,20 @@
     margin-top: 10px;
    margin: auto;
     align-items: center;
-    width: 100%;
+    width: 80%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px 20px;
+    padding: auto;
+  }
+  
+
+  a{
+    font-family: 'Cormorant Garamond';
     
     
   }
   
-  p,
-  li {
-    font-family: 'Cormorant Garamond';
-  }
+ 
   
   .head { 
     font-size: 20px;
@@ -27,7 +32,7 @@
 
       display: block;
        align-items: center;
-       width: 100%;
+       width: 90%;
        height: 100%;
        margin-left: 5%;
        
