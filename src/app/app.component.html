@@ -1,5 +1,5 @@
 <body >
-<app-sidenav fxHide.xs="true"></app-sidenav>
+<app-sidenav fxHide.lt-md="true"></app-sidenav>
 
 <mat-drawer-container class="container" autosize>
   <mat-drawer #drawer class="sidenav" mode="side">
@@ -8,7 +8,7 @@
   </mat-drawer>
 
 
-    <button  fxHide.gt-xs="true" fxHide.gt-xs="true" type="button" class="btnright" mat-button (click)="drawer.toggle()">
+    <button   fxHide.gt-sm="true"  type="button" class="btnright" mat-button (click)="drawer.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
  
@@ -22,9 +22,7 @@
                 <br><br>
                 <div fxLayout.sm="column"  fxLayout.xs="column"  >
               
-                
-         
-                  <img fxHide.gt-xs="fales" fxFlex.lt-sm="50"  fxFlex.xs="20" class="img" src="assets/FB_IMG_1667897276673 (1).jpg" alt="image"><br>
+                  <img fxHide.gt-sm="fales" fxFlex.lt-sm="50"  fxFlex.xs="20" class="img" src="assets/FB_IMG_1667897276673 (1).jpg" alt="image"><br>
                 <h2 class="head"  >Sittichok Phothongkam </h2>
                   <br> 
                   <div class="name" >
@@ -33,9 +31,12 @@
                   <hr>
                   <br>
 <router-outlet ></router-outlet>
-  </div>   </div>   </div> 
 
+  </div>   <app-footer fxHide.gt-sm="true"></app-footer> </div> </div> 
+ 
 </body>
+
+
 
               
             

@@ -13,11 +13,14 @@ import { MatDividerModule } from '@angular/material/divider';
 import { EducationComponent } from './education/education.component';
 import { ContactComponent } from './contact/contact.component';
 
+
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 
 import {MatIconModule} from '@angular/material/icon'
+import { InterestsComponent } from './interests/interests.component';
+import { SkillsComponent } from './skills/skills.component';
 
 
 @NgModule({
@@ -25,7 +28,8 @@ import {MatIconModule} from '@angular/material/icon'
     AppComponent,
     EducationComponent,
     ContactComponent,
-
+    InterestsComponent,
+    SkillsComponent,
     FooterComponent,
      HeaderComponent,
      SidenavComponent,
