@@ -17,7 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
-
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import {MatIconModule} from '@angular/material/icon'
 import { InterestsComponent } from './interests/interests.component';
 import { SkillsComponent } from './skills/skills.component';
@@ -47,7 +47,7 @@ import { SkillsComponent } from './skills/skills.component';
     FlexLayoutModule,
     MatIconModule
   ],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
