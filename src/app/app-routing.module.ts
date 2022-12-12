@@ -17,7 +17,7 @@ const routes: Routes = [
     {path:'skills',component:SkillsComponent},
     {path:'education',component:EducationComponent},
     {path:'contact',component:ContactComponent},
-  
+   {path: '**', component:InterestsComponent},
    
   {path:'header-component',component:HeaderComponent}
   
