@@ -1,9 +1,9 @@
 #footer {
   margin-top: 10%;
     height: 50px;
-    width: 100vw;
+    width: 100%;
   left: 0;
-
+bottom: 0;
   background-color:  #343c4a;
   color: white;
   text-align: center;
@@ -14,7 +14,7 @@
 
 #name {
     font-family: Sacramento;
-    float: right;
+    float: left;
     margin-top: 10px;
-    text-align: start;
+   
   }
