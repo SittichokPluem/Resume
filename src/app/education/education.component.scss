@@ -73,7 +73,25 @@ a{margin-top: 0%;
      }
      a{margin-top: 0%;
       font-size: 18px;
-     margin-left: 5%;}
+     margin-left: 4%;
+    display:inline;}
+
+     .sm{margin-left: 10.5%;
+      font-size: 18px;}
+      .md{margin-left: 0%;
+        font-size: 18px;}
+     .dot{
+      width:5px;
+      height:5px;
+    background: #ffffff;
+      border-radius:10px;
+      margin-left:4.5%;
+      border: 2px solid rgb(0, 0, 0);
+      display:inline-block;
+    }
+    p{margin-top: 0%;
+     
+     margin-left: 6%;}
  
 
 }
