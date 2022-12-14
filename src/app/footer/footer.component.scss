@@ -6,8 +6,9 @@ left: 0;
 background-color:  #343c4a;
 color: white;
 text-align: center;
-position:absolute;
+position:relative;
 align-items: center;
+
   }
 
 
@@ -19,16 +20,5 @@ align-items: center;
   }
 
   
-  @media only screen and (min-device-width: 390px)  and (min-device-height: 820px)and (orientation:portrait) {
-    #footer {
-     bottom: 0;
-      }
-  }
-  
-  
-  @media only screen and (min-device-width: 390px) and (min-device-height: 800px)  and (orientation:landscape) {
-    #footer {
-      bottom: 0;
-       }
-  }
+
  
