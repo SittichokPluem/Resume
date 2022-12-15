@@ -19,7 +19,14 @@ position:relative;
     margin-top: 10px;
     text-align: center;
   }
+  @media (orientation: landscape) {
 
+
+    #footer{
+      visibility: hidden;
+      background-color:  #343c4a;
+     }
+  }
   @media only screen and (min-device-height: 300px) and (orientation:landscape) {
   
    #footer{
