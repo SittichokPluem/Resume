@@ -1,14 +1,15 @@
 #footer {
-  margin-top: 1000px;
+
   height: 50px;
   width: 100%;
 left: 0;
+bottom: 0;
 background-color:  #343c4a;
 color: white;
 text-align: center;
 align-items: center;
-position: fixed;
-bottom: 0;
+position:relative;
+
 
   }
 
@@ -19,6 +20,12 @@ bottom: 0;
     text-align: center;
   }
 
+  @media only screen and (min-device-height: 300px) and (orientation:landscape) {
   
-
+   #footer{
+    visibility: hidden;
+    background-color:  #343c4a;
+   }
+  
+  }
  
