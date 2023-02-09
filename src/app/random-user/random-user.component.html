@@ -1,32 +1,8 @@
 <div class="profile-container">
-    <h2>User Information</h2>
-  
+  <h2>User Information</h2>
+  <div class="user" *ngFor="let user of [user1, user2, user3]">
     <div class="avatar" [ngStyle]="{'background-image': 'url(' + user?.avatar + ')'}"></div>
-  
-    <p>ID: {{ user?.id }}</p>
-    <p>UID: {{ user?.uid }}</p>
     <p>First Name: {{ user?.first_name }}</p>
     <p>Last Name: {{ user?.last_name }}</p>
-    <p>Username: {{ user?.username }}</p>
-    <p>Email: {{ user?.email }}</p>
-    <p>Gender: {{ user?.gender }}</p>
-    <p>Phone Number: {{ user?.phone_number }}</p>
-    <p>Social Insurance Number: {{ user?.social_insurance_number }}</p>
-    <p>Date of Birth: {{ user?.date_of_birth }}</p>
-    <p>Title: {{ user?.employment?.title }}</p>
-    <p>Key Skill: {{ user?.employment?.key_skill }}</p>
-    <p>City: {{ user?.address?.city }}</p>
-    <p>Street Name: {{ user?.address?.street_name }}</p>
-    <p>Street Address: {{ user?.address?.street_address }}</p>
-    <p>Zip Code: {{ user?.address?.zip_code }}</p>
-    <p>State: {{ user?.address?.state }}</p>
-    <p>Country: {{ user?.address?.country }}</p>
-    <p>Latitude: {{ user?.address?.coordinates?.lat }}</p>
-    <p>Longitude: {{ user?.address?.coordinates?.lng }}</p>
-    <p>Credit Card Number: {{ user?.credit_card?.cc_number }}</p>
-    <p>Subscription Plan: {{ user?.subscription?.plan }}</p>
-    <p>Subscription Status: {{ user?.subscription?.status }}</p>
-    <p>Payment Method: {{ user?.subscription?.payment_method }}</p>
-    <p>Subscription Term: {{ user?.subscription?.term }}</p>
   </div>
-  
+</div>
