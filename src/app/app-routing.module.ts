@@ -8,10 +8,10 @@ import { HeaderComponent } from './header/header.component';
 import { InterestsComponent } from './interests/interests.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { SkillsComponent } from './skills/skills.component';
-
+import { RandomUserComponent} from './random-user/random-user.component';
 const routes: Routes = [
 
-
+  {path:'random-user',component:RandomUserComponent},
   {path:'footer-component',component:FooterComponent},
   {path:'sidenav-component',component:SidenavComponent},
     {path:'interests',component:InterestsComponent},

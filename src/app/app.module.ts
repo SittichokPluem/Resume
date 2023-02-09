@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FlexLayoutModule } from '@angular/flex-layout';
-
+import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -21,10 +21,12 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import {MatIconModule} from '@angular/material/icon'
 import { InterestsComponent } from './interests/interests.component';
 import { SkillsComponent } from './skills/skills.component';
+import { RandomUserComponent } from './random-user/random-user.component';
 
 
 @NgModule({
   declarations: [
+    
     AppComponent,
     EducationComponent,
     ContactComponent,
@@ -33,10 +35,11 @@ import { SkillsComponent } from './skills/skills.component';
     FooterComponent,
      HeaderComponent,
      SidenavComponent,
+     RandomUserComponent,
     
   ],
   imports: [
-    
+    HttpClientModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
